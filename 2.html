@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>This is page 2</title>
+  </head>
+  <body>
+    
+    <h1>Welcome to page 2</h1>
+    <img style="max-width: 400px; max-height: 300px" src="2.jpg"/>
+    <!-- I got this line from the internet to scale images -->
+
+    <h2>I can add tables</h2>
+    <table>
+
+      <thead>
+        <tr>
+          <th>Color</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Red</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Green</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <h1>Special tags</h12>
+
+    <h2>Sign In</h2>
+    <!-- Action is the ink and Method is either get/post -->
+      <form action="2.html" method="get">
+        <div class="">
+          <label for="name">First Name:</label>
+          <input id="name" type="text" name="fisrtname" value="" placeholder="Cocodrilo" required>
+          <label for="last">Last Name:</label>
+          <input id="last" type="text" name="lastname" value="" placeholder="Amarillo" required>
+        </div>
+
+        <p></p>
+        <!-- put a paragrahp to separate -->
+        <div>
+          <label for="username">Email:</label>
+          <input id="username" type="email" name="username" placeholder="Email" required>
+          <label for="password">Password:</label>
+          <input id="password" type="password" name="password" placeholder="Password" pattern=".{5,10}" required title="Password must have 5 to 10 characters">
+        </div>
+
+        <p>What is your gender?</p>
+          <div class="">
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="Gender" value="male">
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="Gender" value="female">
+          </div>
+
+        <p>Whats your favorite color?</p>
+        <div class="">
+          <select class="" name="color">
+            <option value="redcolor">Red</option>
+            <option value="blackcolor">Black</option>
+            <option value="greycolor">Grey</option>
+          </select>
+        </div>
+
+        <p></p>
+          <div class="">
+            <label for="check">Agree to terms by checking the box</label>
+            <input id="check" type="checkbox" name="terms" value="agree">
+          </div>
+
+        <!-- <input type="text" name="" value=""> -->
+        <input type="submit" name="login" value="Register">
+        <!-- <button type="button" name="button">Login</button> -->
+
+      </form>
+
+  </body>
+</html>
