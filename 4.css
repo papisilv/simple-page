@@ -1,0 +1,26 @@
+p{
+  font-family: arial ;
+  text-align: center;
+  text-decoration: line-through;
+
+}
+h1{
+  font-size: 50px;
+  line-height: 2;
+  text-decoration: overline;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+span{
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-decoration: underline;
+}
+div{
+  font-family: 'MuseoModerno', cursive;
+  border: 2px solid blue;
+  width: 50%;
+  padding: 30px;
+  margin: 20px;
+}
