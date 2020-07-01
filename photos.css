@@ -24,7 +24,10 @@
                0px 18px 23px yellow;
 }
 body{
+  
   background: url(vapor.jpg);
+  height: 100vh;
+  width: 100%;
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;
